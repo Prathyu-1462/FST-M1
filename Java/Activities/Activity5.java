@@ -4,6 +4,6 @@ public static void main(String[] args) {
 	String title="Abstract class Activity";
 	Book newNovel=new Mybook();
 	newNovel.setTitle(title);
-	System.out.println("Title: "+newNovel.getTitle(title));
+	System.out.println("Title: "+newNovel.getTitle());
 }
 }
