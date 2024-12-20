@@ -16,15 +16,15 @@ public class Activity3 {
         double NeptuneSeconds = 164.79132;
         
         
-        System.out.println("Age on Mercury: " + seconds / EarthSeconds / MercurySeconds);
-        System.out.println("Age on Mercury: " + seconds / EarthSeconds / MercurySeconds);
-        System.out.println("Age on Venus: " + seconds / EarthSeconds / VenusSeconds);
-        System.out.println("Age on Earth: " + seconds / EarthSeconds);
-        System.out.println("Age on Mars: " + seconds / EarthSeconds / MarsSeconds);
-        System.out.println("Age on Jupiter: " + seconds / EarthSeconds / JupiterSeconds);
-        System.out.println("Age on Saturn: " + seconds / EarthSeconds / SaturnSeconds);
-        System.out.println("Age on Uranus: " + seconds / EarthSeconds / UranusSeconds);
-        System.out.println("Age on Neptune: " + seconds / EarthSeconds / NeptuneSeconds);
+        System.out.println("Age on Mercury: " + String.format("%.2f",seconds / EarthSeconds / MercurySeconds));
+        System.out.println("Age on Mercury: " + String.format("%.2f",seconds / EarthSeconds / MercurySeconds));
+        System.out.println("Age on Venus: " + String.format("%.2f",seconds / EarthSeconds / VenusSeconds));
+        System.out.println("Age on Earth: " +String.format("%.2f", seconds / EarthSeconds) );
+        System.out.println("Age on Mars: " + String.format("%.2f",seconds / EarthSeconds / MarsSeconds));
+        System.out.println("Age on Jupiter: " + String.format("%.2f",seconds / EarthSeconds / JupiterSeconds));
+        System.out.println("Age on Saturn: " + String.format("%.2f",seconds / EarthSeconds / SaturnSeconds));
+        System.out.println("Age on Uranus: " + String.format("%.2f",seconds / EarthSeconds / UranusSeconds));
+        System.out.println("Age on Neptune: " + String.format("%.2f",seconds / EarthSeconds / NeptuneSeconds));
     }
 	}
 
