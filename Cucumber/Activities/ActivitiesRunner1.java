@@ -6,8 +6,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "features",
-    glue = {"stepdefinitions"},
+    features = "Features",
+    glue = {"stepDefinitions"},
     tags = "@activity1"
 )
 
